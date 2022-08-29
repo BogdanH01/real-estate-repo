@@ -1,0 +1,98 @@
+.table {
+  width: 90%;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  color: white;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 4%;
+  border-color: #38015c;
+  background-color: #2a4473;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.errorMessage { 
+  display: block;
+  margin-left: 40%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+tbody tr:nth-child(2n+1) {
+  background-color: #1e3153;
+}
+
+.table td th {
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.oglasi button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #9f5ccc;
+  border: 1px solid #9f5ccc;
+  border-radius: 4px;
+  padding: 0.005rem 1rem;
+}
+
+.oglasi button:hover {
+  background-color: #873abb;
+  border-color: #873abb;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #9f5ccc;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #ae82cc;
+}
+
+.oglasi p {
+  font: inherit;
+  background-color: #2a4473;
+  color: white;
+  display: flex;
+  width: 70%;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+section {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 32%;
+  margin-left: -50px;
+  top: 10%;
+  margin-top: -50px;
+}
+
+.oglasi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes oglasi-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

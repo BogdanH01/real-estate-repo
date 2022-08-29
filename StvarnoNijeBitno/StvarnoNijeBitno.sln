@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StvarnoNijeBitno", "StvarnoNijeBitno\StvarnoNijeBitno.csproj", "{B096B399-C4D7-4AE3-9141-4BBE24C94AA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StvarnoNijeBitnoTest", "StvarnoNijeBitnoTets\StvarnoNijeBitnoTest.csproj", "{CBF820B5-6778-44FA-B3F5-3C27C0FDE1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B096B399-C4D7-4AE3-9141-4BBE24C94AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B096B399-C4D7-4AE3-9141-4BBE24C94AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B096B399-C4D7-4AE3-9141-4BBE24C94AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B096B399-C4D7-4AE3-9141-4BBE24C94AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF820B5-6778-44FA-B3F5-3C27C0FDE1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF820B5-6778-44FA-B3F5-3C27C0FDE1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF820B5-6778-44FA-B3F5-3C27C0FDE1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF820B5-6778-44FA-B3F5-3C27C0FDE1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {216F82B8-E619-4F51-9899-92F152D1E204}
+	EndGlobalSection
+EndGlobal

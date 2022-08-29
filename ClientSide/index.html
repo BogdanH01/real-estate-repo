@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vezba02</title>
+        <link href="./bs/css/bootstrap.min.css" rel="stylesheet ">
+        <script src="./js/clientSide.js"></script>
+        <script src="./bs/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body onload="main()">
+        <div id="biranjePrijave" style="text-align: center;" class="container">
+            <h1>Korisnik nije prijavljen</h1>
+            
+
+            <button onclick="loginPrikaz()" >Prijava</button> 
+            <br>
+            <button onclick="registracijaPrikaz()" style="color: white; background-color: black;">Registracija</button>
+        </div>
+
+        <div id="login" style="text-align: center; display: none;" class="container">
+            <table class="table">
+                <tr>
+                    <td>Korisnicko ime: </td>
+                    <td>
+                        <input type="text" id="usernameLogin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lozinka:</td>
+                    <td>
+                        <input type="password" id="passwordLogin">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="login()" >Prijavi se </button> </td>
+                </tr>
+                    <br>
+                <tr>
+                    <td><button onclick="cancel()" >Odustani</button> </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div id="registracija" style="text-align: center; display: none;">
+            <h1>Registracija</h1>
+            <br>
+            <table class="table">
+                <tr>
+                    <td>Korisnicko ime:</td>
+                    <td><input type="text" id="usernameRegistration"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" id="emailRegistration"></td>
+                </tr>
+                <tr>
+                    <td>Lozinka:</td>
+                    <td><input type="password" id="passwordRegistration"></td>
+                </tr>
+                <tr>
+                    <td>Ponovi lozinku:</td>
+                    <td><input type="password" id="passwordCheckRegistration"></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="registracija()">Registruj se</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button onclick="cancel()" >Odustani</button> </td>
+                </tr>
+            </table>
+            <br>
+            
+        </div>
+
+        <div id="logoutDiv" style="display: none;">
+            <p id="logoutP"> <br> </p></div>
+    
+
+            <div id="search" style="text-align: center; display: none;" class="container">
+                <h2 style="text-align: center;">Pretraga Oglasa za nekretnine po ceni</h2>
+
+                <table>
+                    <tr>
+                        <td>Najmanje: </td>
+                        <td><input type="text" id="start"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Najvise: </td>
+                        <td><input type="text" id="kraj"></td>
+                    </tr>
+
+                    <tr>
+                        <td><button onclick="pretraga()">Trazi</button></td>
+                        <td><button onclick="obrisiSearch()">Ponisti pretragu</button></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        <div id="data">
+            <br>
+            <h2 style="text-align: center;">Oglasi za nekretnine</h2>
+        </div>
+    
+        
+        <div id="loggedIn" style="text-align: center; display: none;">
+            <br>
+           
+            <h2 style="text-align: center;" id="naslovHeadera">Dodavanje novog oglasa</h2>
+            <br>
+            <table class="table">
+                <tr>
+                    <td>Agencija</td>
+                    <td id="dodajAgencije"></td>
+                </tr>
+    
+                <tr>
+                    <td>Naslov</td>
+                    <td><input type="text" id="addNaslov"></td>
+                </tr>
+    
+                <tr>
+                    <td>Tip nekretnine</td>
+                    <td><input type="text" id="addTipNekretnine"></td>
+                </tr>
+    
+                <tr>
+                    <td>Godina izgradnje</td>
+                    <td><input type="text" id="addGodinaIzgradnje"></td>
+                </tr>
+
+                <tr>
+                    <td>Cena</td>
+                    <td><input type="text" id="addCena"></td>
+                </tr>
+            </table>
+    
+            <br>
+            <button id="addButton" onclick="add()">Dodavanje</button>
+            <button id="cancel" onclick="cancel()" style="color: white; background-color:  rgb(188, 115, 42);">Odustajanje</button>
+        </div>
+    
+    </body>
+    
+    </html>

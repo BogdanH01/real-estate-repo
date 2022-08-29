@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "NepGgthrDx0MOS1p961IjChOk5fOzPDR3c/Eb00EwYBPCvJBhwsUlnAcqfE6uchFzwoSCGqmc7DB4emhU1vyvQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Files\\Kurs\\.NET\\Test\\Finalni test\\StvarnoNijeBitno\\StvarnoNijeBitnoTets\\StvarnoNijeBitnoTest.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project StvarnoNijeBitno is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Project StvarnoNijeBitno supports: net5.0-windows7.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "StvarnoNijeBitno",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
